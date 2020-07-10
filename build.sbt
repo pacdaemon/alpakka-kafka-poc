@@ -8,7 +8,11 @@ scalaVersion := "2.13.2"
 
 libraryDependencies ++= Seq(
   akkaTypedActors,
-  logbackClassis,
+  logbackClassic,
+  akkaStream,
+  akkaStreamTestkit % Test,
+  akkaStreamKafka,
   akkaTypedActorsTestkit % Test,
+  scalaTest              % Test,
   scalaCheck             % Test
 )
