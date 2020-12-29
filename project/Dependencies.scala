@@ -10,7 +10,7 @@ object Dependencies {
   lazy val akkaTypedActorsTestkit = "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion
   lazy val akkaStream             = "com.typesafe.akka" %% "akka-stream"              % akkaVersion
   lazy val akkaStreamTestkit      = "com.typesafe.akka" %% "akka-stream-testkit"      % akkaVersion
-  lazy val akkaStreamKafka        = "com.typesafe.akka" %% "akka-stream-kafka"        % "2.0.5"
+  lazy val akkaStreamKafka        = "com.typesafe.akka" %% "akka-stream-kafka"        % "2.0.6"
   lazy val cats                   = "org.typelevel"     %% "cats-core"                % "2.1.1"
   lazy val logbackClassic         = "ch.qos.logback"    % "logback-classic"           % "1.2.3"
   lazy val scalaCheck             = "org.scalacheck"    %% "scalacheck"               % "1.15.2"
