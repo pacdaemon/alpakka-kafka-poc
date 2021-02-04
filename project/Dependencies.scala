@@ -1,7 +1,7 @@
 import sbt._
 
 object Versions {
-  lazy val akkaVersion = "2.6.11"
+  lazy val akkaVersion = "2.6.12"
 }
 
 object Dependencies {
