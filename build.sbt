@@ -1,6 +1,6 @@
 import Dependencies._
 
-name := "akka-quickstart-scala"
+name := "alpakka-kafka-poc"
 
 version := "1.0"
 
