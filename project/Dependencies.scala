@@ -1,7 +1,7 @@
 import sbt._
 
 object Versions {
-  lazy val akkaVersion = "2.6.13"
+  lazy val akkaVersion = "2.6.14"
 }
 
 object Dependencies {
@@ -14,6 +14,6 @@ object Dependencies {
   lazy val cats                   = "org.typelevel"     %% "cats-core"                % "2.1.1"
   lazy val logbackClassic         = "ch.qos.logback"    % "logback-classic"           % "1.2.3"
   lazy val scalaCheck             = "org.scalacheck"    %% "scalacheck"               % "1.15.4"
-  lazy val scalaTest              = "org.scalatest"     %% "scalatest"                % "3.2.7"
+  lazy val scalaTest              = "org.scalatest"     %% "scalatest"                % "3.2.8"
   lazy val scalaTestPlus          = "org.scalatestplus" %% "scalacheck-1-14"          % "3.2.0.0"
 }
